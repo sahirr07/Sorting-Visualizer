@@ -1,0 +1,149 @@
+/* Body Design*/
+body {
+  background: rgb(75, 68, 239);
+  background: linear-gradient(90deg, rgba(75, 68, 239, 1) 15%, rgba(121, 115, 235, 1) 44%, rgba(168, 165, 225, 1) 61%, rgba(171, 167, 237, 1) 79%, rgba(162, 209, 220, 1) 94%);
+
+  color: white !important;
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: white;
+  /* Default background */
+  color: black;
+  /* Default text color */
+  border: 1px solid black;
+  /* Button border */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* Pointer cursor for better UX */
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+  border-radius: 5px;
+  /* Rounded corners for better aesthetics */
+}
+
+button:hover {
+  background-color: lightgray;
+  /* Background changes on hover */
+  color: black;
+  /* Text color on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Adds a subtle shadow */
+  transform: scale(1.05);
+  /* Slightly enlarges the button */
+}
+
+
+/*Sorting Arrays*/
+.array-bar {
+  background-color: rgb(11, 11, 11) !important;
+  /* Change color to white */
+  margin: 0 1px;
+  display: inline-block;
+  width: 20px;
+  /* Default width for bars */
+}
+
+/* Section for array container */
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 70vh;
+}
+
+/* Additional container styles for centering */
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+/* New array division */
+.newArrDiv {
+  margin: 15px;
+}
+
+/* Grid layout for array inputs */
+.array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+.array-inputs #arrSize,
+.array-inputs #arrSpeed {
+  padding: 5% 0%;
+}
+
+/* Heading and text styling for readability */
+h1,
+h2,
+h3,
+p,
+label {
+  color: white;
+}
+
+/* Style for the "Generate New Array" button */
+#newArr {
+  background-color: white;
+  /* White background */
+  color: black;
+  /* Black text */
+  border: 2px solid black;
+  /* Black border for a distinct look */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  /* Rounded corners */
+  cursor: pointer;
+  margin: 10px auto;
+  /* Center alignment */
+  display: block;
+  /* Ensures proper centering */
+}
+
+#newArr:hover {
+  background-color: lightgray;
+  /* Light gray background on hover */
+  color: black;
+  border-color: black;
+}
+
+/* Sorting array bars styling with light grey color */
+.array-bar {
+  background-color: lightgrey !important;
+  /* Default color for bars */
+  margin: 0 1px;
+  display: inline-block;
+  width: 20px;
+  /* Default width for bars */
+}
+
+/* Colors for specific sorting states */
+.array-bar.comparing {
+  background-color: yellow !important;
+  /* Comparing bars */
+}
+
+.array-bar.swapping {
+  background-color: red !important;
+  /* Bars being swapped */
+}
+
+.array-bar.sorted {
+  background-color: green !important;
+  /* Bars in their final sorted state */
+}
