@@ -1,75 +1,55 @@
-Sorting Visualizer
+# Sorting Visualizer
 
+**Sorting Visualizer** is a web application that provides an interactive and visual representation of popular sorting algorithms. It allows users to observe and understand how different sorting algorithms work step by step on various datasets.
 
-Sorting Visualizer is a web application that provides an interactive and visual representation of popular sorting algorithms. It allows users to observe and understand how different sorting algorithms work step by step on various datasets.
- 
-Features
-•	Interactive Visualization: Watch sorting algorithms in action as they sort arrays of bars.
-•	User-Friendly Interface: Adjust the array size and sorting speed using intuitive controls.
-•	Algorithms Included:
-o	Bubble Sort
+## Features
+- **Interactive Visualization:** Watch sorting algorithms in action as they sort arrays of bars.
+- **User-Friendly Interface:** Adjust the array size and sorting speed using intuitive controls.
+- **Algorithms Included:**
+  - Bubble Sort
+  - Heap Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Selection Sort
 
-o	Heap Sort
+## How It Works
+1. **Generate a New Array:**
+   - Click the "Generate New Array" button to create a random array of bars.
+2. **Select a Sorting Algorithm:**
+   - Choose one of the available algorithms from the menu.
+3. **Start Sorting:**
+   - Observe how the bars rearrange themselves according to the chosen algorithm.
+4. **Adjust Controls:**
+   - Modify the size of the array and the sorting speed for a customized experience.
 
-o	Insertion Sort
+## Algorithms Overview
 
-o	Merge Sort
+### Bubble Sort
+- **Description:** Repeatedly swaps adjacent elements if they are in the wrong order.
+- **Time Complexity:** O(n²)
 
-o	Quick Sort
+### Heap Sort
+- **Description:** Converts the array into a binary heap and sorts it using the heap properties.
+- **Time Complexity:** O(n log n)
 
-o	Selection Sort
+### Insertion Sort
+- **Description:** Builds the sorted array one element at a time by inserting elements into their correct position.
+- **Time Complexity:** O(n²)
 
- 
-How It Works
-1.	Generate a New Array:
+### Merge Sort
+- **Description:** Divides the array into halves, sorts each half, and merges them back together.
+- **Time Complexity:** O(n log n)
 
-o Click the "Generate New Array" button to create a random array of bars.
-3.	Select a Sorting Algorithm:
+### Quick Sort
+- **Description:** Divides the array into partitions and recursively sorts each partition.
+- **Time Complexity:** O(n log n) (average case)
 
-o	Choose one of the available algorithms from the menu.
-4.	Start Sorting:
+### Selection Sort
+- **Description:** Selects the smallest element from the unsorted part and places it in the sorted part.
+- **Time Complexity:** O(n²)
 
-o	Observe how the bars rearrange themselves according to the chosen algorithm.
-5.	Adjust Controls:
+## Link to Project
+[Sorting Visualizer](https://sahirr07.github.io/Sorting-Visualizer/)
 
-o	Modify the size of the array and the sorting speed for a customized experience.
- 
-Algorithms Overview
-1. Bubble Sort
-
-•	Description: Repeatedly swaps adjacent elements if they are in the wrong order.
-
-•	Time Complexity: O(n²)
-
-2. Heap Sort
-
-•	Description: Converts the array into a binary heap and sorts it using the heap properties.
-
-•	Time Complexity: O(n log n)
-
-3. Insertion Sort
-
-•	Description: Builds the sorted array one element at a time by inserting elements into their correct position.
-
-•	Time Complexity: O(n²)
-
-4. Merge Sort
-
-•	Description: Divides the array into halves, sorts each half, and merges them back together.
-
-•	Time Complexity: O(n log n)
-
-5. Quick Sort
-
-•	Description: Divides the array into partitions and recursively sorts each partition.
-
-•	Time Complexity: O(n log n) (average case)
-
-6. Selection Sort
-
-•	Description: Selects the smallest element from the unsorted part and places it in the sorted part.
-
-•	Time Complexity: O(n²)
-
-Link to project:https://sahirr07.github.io/Sorting-Visualizer/
 
