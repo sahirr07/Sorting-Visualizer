@@ -71,3 +71,5 @@ Algorithms Overview
 
 •	Time Complexity: O(n²)
 
+Link to project:https://sahirr07.github.io/Sorting-Visualizer/
+
